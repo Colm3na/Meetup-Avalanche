@@ -52,7 +52,7 @@ cd avalanchego/build/ && ./avalanchego
 sudo vim /etc/systemd/system/ava.service
 ```
 
->Dentro añadimos *recordad cambiar delega por el nombre de usuario en vuestro sistema*:
+>Dentro añadimos *(recordad cambiar delega por el nombre de usuario en vuestro sistema)*:
 
 ```sh
 [Unit]
@@ -87,7 +87,7 @@ sudo systemctl enable ava.service
 
 ### Dando un poco de seg a nuestros nodos:
 
->Para dar un poco de seguridad vamos a usar `ufw` más info [aquí](https://es.wikipedia.org/wiki/Uncomplicated_Firewall)
+>Para dar un poco de seguridad vamos a usar `ufw` más info [aquí](https://es.wikipedia.org/wiki/Uncomplicated_Firewall), el puerto `9650` sólo nos haría falta en caso de querer usar la web-wallet, aconsejable cambiar el puerto de `ssh` del `22` a cualquier otro:
 ```sh
 ufw status
 ufw allow 22/tcp
@@ -104,6 +104,7 @@ El `.crt` y `.key` del servidor para arrancar con el mismo node-id.
 > La carpeta con la base de datos se encuentra en `.avalanchego/db/`
 
 ---
+
 ## Cómo usar nuestro nodo para manejar nuestras wallets y no depender de terceros:
 
 [Repositorio](https://github.com/ava-labs/avalanche-wallet)
