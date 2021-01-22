@@ -161,3 +161,5 @@ yarn serve
 [Foro](https://forum.avax.network/)
 
 [Hub Avalanche](https://community.avax.network/accounts/login/)
+
+[Guía para delegar fondos *(en español)*](https://github.com/wimel/Delegar-fondos-en-Avalanche-AVAX)
