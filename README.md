@@ -35,7 +35,7 @@ git clone https://github.com/ava-labs/avalanchego.git && cd avalanchego/
 
 ### Seleccionamos la rama y compilamos *(comprobar la última version o la versión necesaria en [su repositorio](https://github.com/ava-labs/avalanchego/releases/))*:
 ```sh
-git checkout v1.1.3
+git checkout v1.2.0
 
 ./scripts/build.sh
 ```
