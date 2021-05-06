@@ -91,7 +91,6 @@ sudo systemctl enable ava.service
 ```sh
 ufw status
 ufw allow 22/tcp
-ufw allow 9650/tcp
 ufw allow 9651/tcp
 ufw enable
 ufw status numbered
