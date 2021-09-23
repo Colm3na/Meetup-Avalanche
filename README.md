@@ -13,10 +13,10 @@ sudo apt install -y git make gcc build-essential
 
 ### Instalamos Go *(comprobar qué versión de Go es necesaria)*:
 ```sh
-wget -c 'https://dl.google.com/go/go1.16.3.linux-amd64.tar.gz' -O go1.16.3.linux-amd64.tar.gz && sudo tar -C /usr/local/ -xzf go1.16.3.linux-amd64.tar.gz
+wget -c 'https://dl.google.com/go/go1.16.8.linux-amd64.tar.gz' -O go1.16.8.linux-amd64.tar.gz && sudo tar -C /usr/local/ -xzf go1.16.8.linux-amd64.tar.gz
 
 
-sudo rm -Rf go1.16.3.linux-amd64.tar.gz
+sudo rm -Rf go1.16.8.linux-amd64.tar.gz
 ```
 
 >Añadimos lo siguiente al `.bashrc` o al `.profile`:
@@ -34,7 +34,7 @@ git clone https://github.com/ava-labs/avalanchego.git && cd avalanchego/
 
 ### Seleccionamos la rama y compilamos *(comprobar la última version o la versión necesaria en [su repositorio](https://github.com/ava-labs/avalanchego/releases/))*:
 ```sh
-git checkout v1.4.0
+git checkout v1.6.0
 
 ./scripts/build.sh
 ```
